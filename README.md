@@ -22,7 +22,8 @@
 
 ## 📱 Screenshots
 
-_(Thêm screenshots của ứng dụng ở đây)_
+![Uploading image.png…]()
+
 
 ## 🏗️ Cấu trúc dự án
 
