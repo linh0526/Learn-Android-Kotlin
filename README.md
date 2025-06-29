@@ -19,11 +19,9 @@
 - **UI**: Material Design Components
 - **Dependency Injection**: Dagger Hilt (nếu có)
 - **Minimum SDK**: API 21 (Android 5.0)
-
 ## 📱 Screenshots
 
-![Uploading image.png…]()
-
+<img src="https://github.com/user-attachments/assets/c7e027ee-cfe6-4d09-a757-bf33b2a611ee" alt="screenshot" width="300"/>
 
 ## 🏗️ Cấu trúc dự án
 
