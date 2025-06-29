@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">By mythophuongten</string>
+    
+    <!-- Main Activity -->
+    <string name="add_player">Add Player</string>
+    <string name="player_name_hint">Player Name</string>
+    <string name="default_player_name">Player %d</string>
+    <string name="score">Score</string>
+    <string name="players">Players</string>
+    <string name="reset_scores">Reset Scores</string>
+    <string name="clear_all">Clear All</string>
+    
+    <!-- Player Actions -->
+    <string name="edit_player_name">Edit Player Name</string>
+    <string name="delete_player">Delete Player</string>
+    <string name="delete_confirmation">Are you sure you want to delete %s?</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    
+    <!-- Buttons -->
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="edit">✏️</string>
+    
+    <!-- Messages -->
+    <string name="max_players_reached">Maximum 8 players allowed</string>
+    <string name="enter_player_name">Please enter a player name</string>
+    <string name="player_added">Player added successfully</string>
+    <string name="player_deleted">Player deleted</string>
+    <string name="scores_reset">All scores reset to 0</string>
+    <string name="all_players_deleted">All players deleted</string>
+    
+    <!-- Game Status -->
+    <string name="game_in_progress">Game in Progress</string>
+    <string name="no_players">No players yet. Tap + to add players!</string>
+    
+    <!-- History -->
+    <string name="history">Lịch sử</string>
+    <string name="clear_history">Xóa lịch sử</string>
+    <string name="no_history">Chưa có lịch sử thay đổi điểm</string>
+    <string name="history_cleared">Đã xóa lịch sử</string>
+    <string name="confirm_clear_history">Bạn có chắc chắn muốn xóa toàn bộ lịch sử?</string>
+</resources>

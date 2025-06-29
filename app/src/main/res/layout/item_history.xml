@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/surface_dark"
+    android:layout_marginBottom="2dp">
+
+    <!-- Orange/Gray Color Strip -->
+    <View
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:background="@color/card_orange"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Content Container -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Player Name -->
+        <TextView
+            android:id="@+id/textHistoryPlayerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nam"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Score Change and Transition -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Score Change Amount -->
+            <TextView
+                android:id="@+id/textScoreChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[+5]"
+                android:textColor="@color/text_secondary_dark"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Score Transition -->
+            <TextView
+                android:id="@+id/textScoreTransition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[-17 → -12]"
+                android:textColor="@color/text_secondary_dark"
+                android:textSize="16sp"
+                android:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/textTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23:29:47"
+        android:textColor="@color/text_secondary_dark"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout> 

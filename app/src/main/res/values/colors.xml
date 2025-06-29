@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="primary_dark">#FF6B35</color>
+    <color name="on_primary_dark">#FFFFFF</color>
+    <color name="secondary_dark">#616161</color>
+    <color name="on_secondary_dark">#FFFFFF</color>
+    
+    <!-- Card Colors -->
+    <color name="card_orange">#FF6B35</color>
+    <color name="card_gray">#424242</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+    
+    <!-- Button Colors -->
+    <color name="button_background">#FF6B35</color>
+    <color name="button_text">#FFFFFF</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_orange">#FF8A50</color>
+    <color name="accent_gray">#757575</color>
+</resources>
